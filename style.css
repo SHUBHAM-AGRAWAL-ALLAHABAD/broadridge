@@ -11,7 +11,7 @@ body {
 }
 header {
   background: #1e293b;
-  padding: 3rem 2rem;
+  padding: 0rem 2rem;
   text-align: center;
 }
 nav {
@@ -19,7 +19,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 1.5rem;
+  /* background-color: #38bdf8; */
+  /* padding-bottom: 1.5rem; */
+  padding: 2%;
 }
 nav h1 {
   color: #38bdf8;
@@ -36,6 +38,7 @@ nav a {
 
 .hero {
   /* background-color: crimson; */
+  padding: 1%;
 }
 
 .hero h2 {
@@ -44,7 +47,7 @@ nav a {
 }
 
 .connect {
-  margin: 3%;
+  margin: 2%;
 }
 
 .hero .highlight {
@@ -57,10 +60,33 @@ nav a {
   padding: 0 10%;
 }
 
-.content{
-    padding: 1% 10%;
-    background-color: crimson;
-    
+.content {
+  padding: 1% 13%;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+}
+
+#about h2{
+    margin-top: 2%;
+}
+
+#certificates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
 }
 .btn {
   margin-top: 1.5rem;
@@ -71,8 +97,27 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
+
+#skills {
+  padding: 2%;
+  margin-top: 0%;
+}
+
+#skills h2 {
+  margin-bottom: 2%;
+}
 .section {
-  padding: 4rem 2rem;
+  /* padding: 4rem 2rem; */
+}
+#projects {
+  padding: 3% 13%;
+}
+#projects h2 {
+  margin-bottom: 2%;
+}
+
+.skills-grid {
+  padding: 0 12%;
 }
 .skills-grid,
 .projects-grid {
@@ -106,4 +151,5 @@ footer {
   background: #1e293b;
   text-align: center;
   padding: 1rem;
+  margin-top: 1rem;
 }
